@@ -22,6 +22,20 @@ public class Template
         }
         return temp;
     }
+    public void addTemplate(String name,String temp){
+        try {
+            PreparedStatement statement = this.connection.prepareStatement("INSERT INTO Templates(Name,Template) VALUES (?,?)");
+            statement.setString(1,name);
+            statement.setString(2,temp);
+            int rows = statement.executeUpdate();
+            if(rows > 0)
+                System.out.println("Inserted");
+            else
+                System.out.println("Not Inserted");
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
     public void delete(String name){
         try {
             PreparedStatement statement = this.connection.prepareStatement("DELETE FROM Templates WHERE Name=?");
