@@ -1,4 +1,4 @@
-package com.company;
+package Notification;
 
 public class Main {
 
