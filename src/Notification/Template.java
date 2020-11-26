@@ -49,4 +49,19 @@ public class Template
             System.out.println(e.getMessage());
         }
     }
+
+    public void updateTemplate(String name , String temp){
+        try {
+            PreparedStatement statement = this.connection.prepareStatement("UPDATE Templates SET Template = ?  WHERE Name=?");
+            statement.setString(1,temp);
+            statement.setString(2,name);
+            int rows = statement.executeUpdate();
+            if(rows > 0)
+                System.out.println("Updated");
+            else
+                System.out.println("Not Updated");
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
 }

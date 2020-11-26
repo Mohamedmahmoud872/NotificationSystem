@@ -17,9 +17,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,6 +60,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="6" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1606334708964" />
+    <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1606376502284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1606376502284" />
     <state x="473" y="173" key="FileChooserDialogImpl" timestamp="1606334693845">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
