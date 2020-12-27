@@ -12,7 +12,7 @@ import com.home.repo.INotifationTemplateDataAccessLayer;
 
 
 @Service
-public class Templates 
+public class Templates
 {
 	@Autowired
 	INotifationTemplateDataAccessLayer object;
